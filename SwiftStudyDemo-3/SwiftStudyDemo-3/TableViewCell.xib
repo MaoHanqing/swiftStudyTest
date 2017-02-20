@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellIdentifier" rowHeight="192" id="msx-9B-H2j" customClass="TableViewCell" customModule="SwiftStudyDemo_3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="522" height="192"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="msx-9B-H2j" id="Nai-yi-bT3">
+                <rect key="frame" x="0.0" y="0.0" width="522" height="191.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LJy-dB-eWW">
+                        <rect key="frame" x="0.0" y="0.0" width="522" height="191.5"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-f7-rbW">
+                        <rect key="frame" x="241" y="76" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="N2u-3u-uOv"/>
+                            <constraint firstAttribute="width" constant="40" id="zIB-Cv-vF4"/>
+                        </constraints>
+                        <state key="normal" image="playBtn"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uca-hx-66X">
+                        <rect key="frame" x="256.5" y="131" width="9" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmI-bY-8c3">
+                        <rect key="frame" x="247.5" y="168" width="28.5" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uca-hx-66X" firstAttribute="centerX" secondItem="Nai-yi-bT3" secondAttribute="centerX" id="2t0-uG-aiC"/>
+                    <constraint firstItem="dmI-bY-8c3" firstAttribute="centerX" secondItem="uca-hx-66X" secondAttribute="centerX" id="32C-2U-u5y"/>
+                    <constraint firstAttribute="bottom" secondItem="uca-hx-66X" secondAttribute="bottom" constant="40" id="5fq-vW-LdV"/>
+                    <constraint firstAttribute="bottom" secondItem="dmI-bY-8c3" secondAttribute="bottom" constant="10" id="5hQ-fK-1IY"/>
+                    <constraint firstItem="LJy-dB-eWW" firstAttribute="leading" secondItem="Nai-yi-bT3" secondAttribute="leading" id="BYm-HM-XKU"/>
+                    <constraint firstItem="qoL-f7-rbW" firstAttribute="centerX" secondItem="Nai-yi-bT3" secondAttribute="centerX" id="OS2-9T-fGa"/>
+                    <constraint firstItem="qoL-f7-rbW" firstAttribute="centerY" secondItem="Nai-yi-bT3" secondAttribute="centerY" id="cMp-cd-8CL"/>
+                    <constraint firstItem="LJy-dB-eWW" firstAttribute="top" secondItem="Nai-yi-bT3" secondAttribute="top" id="dva-q8-6ag"/>
+                    <constraint firstAttribute="trailing" secondItem="LJy-dB-eWW" secondAttribute="trailing" id="ft5-sd-m5y"/>
+                    <constraint firstAttribute="bottom" secondItem="LJy-dB-eWW" secondAttribute="bottom" id="kCp-xo-XYp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backImageView" destination="LJy-dB-eWW" id="24e-8s-tm6"/>
+                <outlet property="playAction" destination="qoL-f7-rbW" id="dYp-sL-9mI"/>
+                <outlet property="souceLabel" destination="dmI-bY-8c3" id="RTq-vA-OpE"/>
+                <outlet property="videoTitle" destination="uca-hx-66X" id="tRM-rF-zb0"/>
+            </connections>
+            <point key="canvasLocation" x="-4613" y="-3664"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="playBtn" width="60" height="60"/>
+    </resources>
+</document>

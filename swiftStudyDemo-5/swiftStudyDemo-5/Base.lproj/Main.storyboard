@@ -25,7 +25,7 @@
                                 <rect key="frame" x="113.5" y="259.5" width="148" height="148"/>
                                 <state key="normal" image="music play"/>
                                 <connections>
-                                    <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6xF-qt-JtX"/>
+                                    <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sxV-dj-UHa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,7 +36,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="playAction" destination="XPH-xn-K72" id="6kh-rt-zzq"/>
+                        <outlet property="playButton" destination="XPH-xn-K72" id="Lgu-bH-XNf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

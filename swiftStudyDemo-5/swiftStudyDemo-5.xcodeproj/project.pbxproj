@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242F5CC31E5EBC28008DF117 /* little_lucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 242F5CC21E5EBC28008DF117 /* little_lucky.mp3 */; };
 		249669B81E5D950E0073B4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249669B71E5D950E0073B4DC /* AppDelegate.swift */; };
 		249669BA1E5D950E0073B4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249669B91E5D950E0073B4DC /* ViewController.swift */; };
 		249669BD1E5D950E0073B4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249669BB1E5D950E0073B4DC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		242F5CC21E5EBC28008DF117 /* little_lucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = little_lucky.mp3; sourceTree = "<group>"; };
 		249669B41E5D950E0073B4DC /* swiftStudyDemo-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftStudyDemo-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		249669B71E5D950E0073B4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		249669B91E5D950E0073B4DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				249669B71E5D950E0073B4DC /* AppDelegate.swift */,
 				249669B91E5D950E0073B4DC /* ViewController.swift */,
+				242F5CC21E5EBC28008DF117 /* little_lucky.mp3 */,
 				249669BB1E5D950E0073B4DC /* Main.storyboard */,
 				249669BE1E5D950E0073B4DC /* Assets.xcassets */,
 				249669C01E5D950E0073B4DC /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242F5CC31E5EBC28008DF117 /* little_lucky.mp3 in Resources */,
 				249669C21E5D950E0073B4DC /* LaunchScreen.storyboard in Resources */,
 				249669BF1E5D950E0073B4DC /* Assets.xcassets in Resources */,
 				249669BD1E5D950E0073B4DC /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				249669DE1E5D950E0073B4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249669DF1E5D950E0073B4DC /* Build configuration list for PBXNativeTarget "swiftStudyDemo-5Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				249669E11E5D950E0073B4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249669E21E5D950E0073B4DC /* Build configuration list for PBXNativeTarget "swiftStudyDemo-5UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				249669E41E5D950E0073B4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

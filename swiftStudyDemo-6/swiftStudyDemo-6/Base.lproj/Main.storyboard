@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swiftStudyDemo_6" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steve" translatesAutoresizingMaskIntoConstraints="NO" id="r3Z-Ph-cgf">
+                                <rect key="frame" x="-212.5" y="-66.5" width="800" height="800"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="800" id="BF2-IV-Zlb"/>
+                                    <constraint firstAttribute="width" constant="800" id="ZPf-eO-Qrn"/>
+                                </constraints>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjl-lr-BuA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bQV-0O-P8y">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gjl-lr-BuA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0eX-UG-t16"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gjl-lr-BuA" secondAttribute="bottom" id="AqK-9i-FnG"/>
+                            <constraint firstItem="r3Z-Ph-cgf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HOP-KM-MQI"/>
+                            <constraint firstAttribute="trailing" secondItem="gjl-lr-BuA" secondAttribute="trailing" id="hkg-Wl-jAG"/>
+                            <constraint firstItem="gjl-lr-BuA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vQE-Pc-0tR"/>
+                            <constraint firstItem="r3Z-Ph-cgf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wyk-4e-BAa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="steve" width="320" height="320"/>
+    </resources>
+</document>
